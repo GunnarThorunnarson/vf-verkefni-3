@@ -1,14 +1,14 @@
 # SSH uppsetning á Raspberry Pi Zero W (Wi-Fi)
 
-Þessar breytingar fara fram á SD-kortinu sem notað er með Raspberry Pi-tölvunni, eftir að stýrikerfið hefur verið brennt á það (á boot partition).
+Þessar breytingar fara fram á SD-kortinu sem notað er með Raspberry Pi-tölvunni, eftir að stýrikerfið hefur verið brennt á það. Öll skref eiga við um `rootfs` partition-ið nema annað sé tekið fram.
 
 ## SSH
 
-Búa til tóma skrá í rót sem heitir `ssh` (`touch ssh`).
+Búa til tóma skrá í rót á `boot` partition sem heitir `ssh` (`touch ssh`).
 
 ## Hostname
 
-Breyta innihaldi `/etc/hostname` í það hostname sem er valið.
+Breyta innihaldi `/etc/hostname` á data í það hostname sem er valið.
 
 Opna `/etc/hosts` og breyta línunni `127.0.0.1 raspberrypi` í `127.0.0.1 [valið hostname]`.
 
