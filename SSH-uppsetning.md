@@ -8,7 +8,7 @@ Búa til tóma skrá í rót á `boot` partition sem heitir `ssh` (`touch ssh`).
 
 ## Hostname
 
-Breyta innihaldi `/etc/hostname` á data í það hostname sem er valið.
+Breyta innihaldi `/etc/hostname` (á `rootfs`) í það hostname sem er valið.
 
 Opna `/etc/hosts` og breyta línunni `127.0.0.1 raspberrypi` í `127.0.0.1 [valið hostname]`.
 
