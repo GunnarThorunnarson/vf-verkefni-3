@@ -1,4 +1,4 @@
-# SSH uppsetning á Raspberry Pi Zero W (Wi-Fi)
+# SSH uppsetning á Raspberry Pi (Wi-Fi)
 
 Þessar leiðbeiningar miða við að notast sé við Linux eða annað stýrikerfi sem getur lesið og skrifað í Linux partitions (`ext4`). Þessar breytingar fara fram á SD-kortinu sem notað er með Raspberry Pi-tölvunni, eftir að stýrikerfið hefur verið brennt á það. Öll skref eiga við um `rootfs` partition-ið nema annað sé tekið fram.
 
